@@ -1,7 +1,0 @@
-This is a SpringBoot Minor Project made by Ritvik Sharma.
-
-It is an Online Voting Application for easy decision making and preference polling among large groups
-
-Each user has their own login, and can vote on matters they are authorized to vote on.
-
-Date: 16-11-2023
