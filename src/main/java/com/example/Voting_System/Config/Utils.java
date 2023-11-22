@@ -19,8 +19,10 @@ public class Utils {
         List<String> adminAuthorities =
                 Arrays.asList(
                         Constants.VOTER_INFO_AUTHORITY,
-                        Constants.SEE_VOTES_AUTHORITY,
-                        Constants.CREATE_ADMIN_AUTHORITY
+                        Constants.CREATE_ADMIN_AUTHORITY,
+                        Constants.CREATE_CANDIDATE_AUTHORITY,
+                        Constants.CREATE_VOTER_AUTHORITY,
+                        Constants.SEE_CANDIDATES_AUTHORITY
                 );
 
         String voterAuthoritiesAsString = String.join(Constants.DELIMITER, voterAuthorities);

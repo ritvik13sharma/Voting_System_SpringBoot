@@ -20,6 +20,8 @@ public class Voter {
     private int id;
     @NotBlank
     private String name;
+    @NotBlank
+    private Boolean hasAlreadyVoted;
     @CreationTimestamp
     private Date createdOn;
     @OneToOne

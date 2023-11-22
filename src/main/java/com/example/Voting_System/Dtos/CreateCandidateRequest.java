@@ -14,7 +14,7 @@ public class CreateCandidateRequest {
 
     @NotBlank
     private String name;
-    private Candidate toCandidate()
+    public Candidate toCandidate()
     {
         return Candidate.builder()
                 .name(this.name)

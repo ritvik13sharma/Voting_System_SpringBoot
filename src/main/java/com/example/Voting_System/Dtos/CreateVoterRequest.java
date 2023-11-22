@@ -23,6 +23,7 @@ public class CreateVoterRequest {
     {
         return Voter.builder()
                 .name(this.name)
+                .hasAlreadyVoted(false)
                 .securedUser(SecuredUser.builder()
                         .username(this.username)
                         .password(this.password)

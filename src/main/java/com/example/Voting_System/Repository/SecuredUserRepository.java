@@ -4,5 +4,5 @@ import com.example.Voting_System.Models.SecuredUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SecuredUserRepository extends JpaRepository<SecuredUser,Integer> {
-    SecuredUser findByusername(String name);
+    SecuredUser findByUsername(String name);
 }
